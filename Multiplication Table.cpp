@@ -1,3 +1,5 @@
+//Write a program that prints a multiplication table for numbers up to 12
+
 #include<iostream>
 using namespace std;
 int main()
@@ -14,3 +16,4 @@ int main()
 
         return 0;
 }
+
