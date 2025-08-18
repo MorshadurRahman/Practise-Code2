@@ -1,3 +1,5 @@
+//Write a program that prints all prime numbers
+
 #include <iostream>
 using namespace std;
 
@@ -27,4 +29,5 @@ int main()
     cout << endl;
     return 0;
 }
+
 
