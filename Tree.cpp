@@ -1,25 +1,21 @@
 #include <iostream>
 using namespace std;
 
-void Tree(int rows)
+int main() 
 {
-    for(int i=1; i<=rows; i++)
+    int n=10;
+    for (int i = 1; i <= n; i++) 
     {
-        for(int j=1; j<= rows-i; j++)
+        for (int j = 1; j <= n - i; j++) 
         {
             cout << " ";
         }
-        for(int k=1; k<=i; k++)
+        for (int k = 1; k <= i; k++) 
         {
             cout << "* ";
         }
         cout << endl;
     }
-}
 
-int main()
-{
-    int rows=11;
-    Tree(rows);
     return 0;
 }
