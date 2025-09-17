@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 void fibonacci(int n)
 {
     long long  a = 1, b = 1;
@@ -21,4 +20,5 @@ int main()
     cout << endl;
     return 0;
 }
+
 
